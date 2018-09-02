@@ -45,8 +45,7 @@ function LNNO ()
 }
 
 
-# Check is there enough free space on path which you provide. Please enter
-# path and percentage of safe space
+# Check is there enough free space on path which you provide. 
 # Usage example: CHECK_DISKSPACE_ON /boot 80% (if on /boot is used more than 80% print a warning)
 # Usage example: CHECK_DISKSPACE_ON /boot 80  (same as previos)
 # Usage example: CHECK_DISKSPACE_ON /boot     (just show me used space on /boot)
@@ -90,7 +89,7 @@ function CHECK_DISKSPACE_ON () {
 
 
 # Check free space on all partition. If there is no input parameter it will
-# show usage from all disks as a info. If you put as a 
+# show usage from all disks as a info. 
 # Usage example: CHECK_DISKSPACE     (show info about usage on all disks)
 # Usage example: CHECK_DISKSPACE 90  (print all disks where is used more than 90% of space)
 # Usage example: CHECK_DISKSPACE 90% (the same as the previous example)
